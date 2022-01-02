@@ -1,2 +1,2 @@
 - [git](https://chiaki1990.github.io/simple/git.html)
-- [firebase](https://chiaki1990.github.io/simple/gcp/firebase/index.md)
+- [firebase](https://chiaki1990.github.io/simple/gcp/firebase/index.html)
