@@ -9,7 +9,7 @@
 1. プロジェクト作成
 1. firebase 等のモジュールをプロジェクトにインストール
 1. firebase を作成
-1. cloud storage を firebase 内で作成
+1. cloud storage バケット を firebase 内で作成
 1. プロジェクトの nuxt.config.js に firebase のキー等を登録
 1. ダウンロード、アップロードのコードを記述
 
@@ -35,5 +35,10 @@ yarn add @nuxtjs/firebase
 
 割愛。ここは firebase のコンソールから作成したけど、（firebase cli でも作成できる？）
 
-4 cloud storage を firebase 内で作成
-![test-image](https://chiaki1990.github.io/simple/images/test.png)
+4 cloud storage バケット を firebase 内で作成
+![1](https://chiaki1990.github.io/simple/images/firebase_storage_2022-01-04 21.48.22.png)
+
+![2](https://chiaki1990.github.io/simple/images/firebase_storage_2022-01-04 21.51.43.png)
+![3](https://chiaki1990.github.io/simple/images/firebase_storage_2022-01-04 21.54.27.png)
+
+![4](https://chiaki1990.github.io/simple/images/firebase_storage_2022-01-04 21.59.54.png)
