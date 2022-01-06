@@ -94,7 +94,29 @@ export default {
 
 ```
 
-##### 補足
+##### 補足 1
+
+認証した user のデータを取りたいときは以下の流れで取得する
+
+```js
+import { getAuth, onAuthStateChanged } from "firebase/auth";
+
+const auth = getAuth();
+onAuthStateChanged(auth, (user) => {
+  if (user) {
+    // User is signed in, see docs for a list of available properties
+    // https://firebase.google.com/docs/reference/js/firebase.User
+    const uid = user.uid;
+    console.log(uid);
+    // ...
+  } else {
+    // User is signed out
+    // ...
+  }
+});
+```
+
+##### 補足 2
 
 https://firebase.nuxtjs.org/guide/usage/
 
